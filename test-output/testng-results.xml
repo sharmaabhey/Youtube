@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-20T16:57:09 IST" name="Default suite" finished-at="2022-07-20T16:57:24 IST" duration-ms="15477">
+    <groups>
+    </groups>
+    <test started-at="2022-07-20T16:57:09 IST" name="Default test" finished-at="2022-07-20T16:57:24 IST" duration-ms="15477">
+      <class name="main_test.test_dataprovider">
+        <test-method is-config="true" signature="launch_app()[pri:0, instance:main_test.test_dataprovider@33990a0c]" started-at="2022-07-20T16:57:09 IST" name="launch_app" finished-at="2022-07-20T16:57:18 IST" duration-ms="9067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="youtbe_action(java.util.Map)[pri:0, instance:main_test.test_dataprovider@33990a0c]" started-at="2022-07-20T16:57:18 IST" name="youtbe_action" data-provider="youtube" finished-at="2022-07-20T16:57:24 IST" duration-ms="5347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Explore=Music, channel=Small Town Rider, type=Search, Flag=Yes, testcase=TC01, search_text=Explore}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtbe_action -->
+        <test-method is-config="true" signature="close_app()[pri:0, instance:main_test.test_dataprovider@33990a0c]" started-at="2022-07-20T16:57:24 IST" name="close_app" finished-at="2022-07-20T16:57:24 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_app -->
+      </class> <!-- main_test.test_dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
